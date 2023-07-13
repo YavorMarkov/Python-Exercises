@@ -11,7 +11,7 @@ sum = add_numbers(3, 4)
 print(sum) #Output 7
 
 # example 3:
-def green(name='world'):
+def greet(name='world'):
     print(f"Hello, {name}!")
 
 greet() # Output: Hello world!
