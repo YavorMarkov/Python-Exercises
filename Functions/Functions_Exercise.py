@@ -117,7 +117,7 @@ number = [1,2,3,4,5]
 squared = map(lambda x: x**2, numbers)
 print(list(squared)) # Outputs [1, 4, 9, 16 ,25 ]
 
-# Example 6 with explanations Lambda Functions
+# Example 7 with explanations Lambda Functions
 
 # Define a list named 'numbers' containing the integers from 1 to 5
 numbers = [1, 2, 3, 4, 5]
@@ -131,3 +131,11 @@ squared = map(lambda x: x**2, numbers)
 # Convert the map object 'squared' to a list and print the result
 # The result is a list of the squares of the numbers in the original 'numbers' list
 print(list(squared))  # Outputs: [1, 4, 9, 16, 25]
+
+
+# example 8 The filter() Function
+# filter() constructs an iterator from elements of an iterable for which a function returns true.
+
+numbers = [1, 2, 4, 5]
+filtered = filter(lambda x: x % 2 == 0, numbers)
+print(list(filtered)) # Output [2,4]
