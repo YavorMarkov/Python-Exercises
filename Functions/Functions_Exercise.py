@@ -61,3 +61,22 @@ def describe_pet(pet_name, animal_type='dog'):
 describe_pet(pet_name='Willie')
 describe_pet(animal_type='hamster', pet_name='Harry')
 
+# example 5 with explanations
+# Keyword Arguments
+# Define a function called describe_pet that takes two parameters: 
+# pet_name (required) and animal_type (optional with default value 'dog')
+def describe_pet(pet_name, animal_type='dog'):
+    # Print a statement about the type of pet
+    print(f"\nI have a {animal_type}.")
+    # Print a statement about the pet's name
+    print(f"My {animal_type}'s name is {pet_name}.")
+
+# Call the function describe_pet with 'pet_name' parameter as 'Willie'.
+# The 'animal_type' parameter is not provided, so it uses the default value 'dog'
+describe_pet(pet_name='Willie')
+
+# Call the function describe_pet with both parameters provided,
+# 'animal_type' as 'hamster' and 'pet_name' as 'Harry'
+describe_pet(animal_type='hamster', pet_name='Harry')
+
+
