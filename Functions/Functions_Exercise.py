@@ -79,4 +79,25 @@ describe_pet(pet_name='Willie')
 # 'animal_type' as 'hamster' and 'pet_name' as 'Harry'
 describe_pet(animal_type='hamster', pet_name='Harry')
 
+"""This code demonstrates the use of default parameters in Python. 
+In this case, the animal_type parameter has a default value of 'dog', 
+which means that if no value is provided for animal_type when describe_pet is called, 
+Python will use the value 'dog'. In the second function call, the animal_type is provided explicitly, 
+so the default value is ignored."""
+
+# Example 5 Recursive Functions
+# In Python, a function can call itself, which is known as a recursive function. 
+# Recursion is a common mathematical and programming concept. 
+# It means that a function calls itself, so it loops until it gets a result.
+
+# For example, a classic use case of recursion is to calculate factorials:
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else: 
+        return n * factprial(n-1)
+print(factorial(5)) #Outputs: 120 
+
+
 
