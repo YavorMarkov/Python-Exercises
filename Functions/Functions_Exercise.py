@@ -45,4 +45,5 @@ def make_pizza(*toppings):
 # Call the function 'make_pizza' with one topping
 make_pizza('pepperoni')
 
-# Call the function 'make
+# Call the function 'make_pizza' with three toppings
+make_pizza('mushrooms', 'green peppers', 'extra cheese')# Call the function 'make
