@@ -100,4 +100,34 @@ def factorial(n):
 print(factorial(5)) #Outputs: 120 
 
 
+#  Example 6 Lambda Functions
+'''Lambda functions are small, anonymous functions that are defined with the lambda keyword, 
+and can be used wherever function objects are required. 
+They are syntactically restricted to a single expression.'''
 
+square = lambda x: x ** 2
+print(square(5)) # Output 25
+
+# Example 7 The map() Function
+# map() is a function that takes in two or more arguments: a function and one or more iterables. 
+# In Python 2, it returns a list of the results after applying the given function to each item of a given iterable. 
+# In Python 3, it returns a map object which is an iterator.
+
+number = [1,2,3,4,5]
+squared = map(lambda x: x**2, numbers)
+print(list(squared)) # Outputs [1, 4, 9, 16 ,25 ]
+
+# Example 6 with explanations Lambda Functions
+
+# Define a list named 'numbers' containing the integers from 1 to 5
+numbers = [1, 2, 3, 4, 5]
+
+# Use the built-in 'map' function to apply a function to every item in 'numbers'
+# The function is specified with a lambda expression, which defines an anonymous function
+# The lambda function takes an argument 'x' and returns 'x' squared (x**2)
+# 'map' returns an iterable object, so it needs to be converted to a list to print the values
+squared = map(lambda x: x**2, numbers)
+
+# Convert the map object 'squared' to a list and print the result
+# The result is a list of the squares of the numbers in the original 'numbers' list
+print(list(squared))  # Outputs: [1, 4, 9, 16, 25]
