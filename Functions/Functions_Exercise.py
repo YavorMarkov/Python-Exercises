@@ -113,7 +113,7 @@ print(square(5)) # Output 25
 # In Python 2, it returns a list of the results after applying the given function to each item of a given iterable. 
 # In Python 3, it returns a map object which is an iterator.
 
-number = [1,2,3,4,5]
+numbers = [1,2,3,4,5]
 squared = map(lambda x: x**2, numbers)
 print(list(squared)) # Outputs [1, 4, 9, 16 ,25 ]
 
