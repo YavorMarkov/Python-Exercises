@@ -28,3 +28,21 @@ def make_pizza(*toppings):
 
 make_pizza('pepperoni')
 make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+# Example 4 with explanations
+# Arbitrary Number of Arguments 
+
+# Define the function 'make_pizza' that can take an arbitrary number of arguments
+def make_pizza(*toppings):
+    # Print a message about making a pizza
+    print("\nMaking a pizza with the following toppings:")
+
+    # Iterate over each item in the 'toppings' tuple
+    for topping in toppings:
+        # Print the current topping
+        print(f"- {topping}")
+
+# Call the function 'make_pizza' with one topping
+make_pizza('pepperoni')
+
+# Call the function 'make
