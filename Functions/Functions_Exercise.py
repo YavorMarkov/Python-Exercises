@@ -47,3 +47,17 @@ make_pizza('pepperoni')
 
 # Call the function 'make_pizza' with three toppings
 make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+# example 5
+# Keyword Arguments
+
+#Keyword arguments allow you to specify a name-value pair for arguments. 
+#This way, the order of arguments doesn't matter:
+
+def describe_pet(pet_name, animal_type='dog'):
+    print(f"\nLI have a {animal_type}. ")
+    print(f"My {animal_type}'s name is {pet_name}. ")
+
+describe_pet(pet_name='Willie')
+describe_pet(animal_type='hamster', pet_name='Harry')
+
