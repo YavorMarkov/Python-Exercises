@@ -135,6 +135,9 @@ print(list(squared))  # Outputs: [1, 4, 9, 16, 25]
 
 # example 8 The filter() Function
 # filter() constructs an iterator from elements of an iterable for which a function returns true.
+# In this example, the filter() function iterates over each element in the numbers list 
+# and applies the lambda function, which checks if a number is even.
+# Only the numbers for which the lambda function returns True are included in the new list.````
 
 numbers = [1, 2, 4, 5]
 filtered = filter(lambda x: x % 2 == 0, numbers)
